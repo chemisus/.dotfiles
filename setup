@@ -1,0 +1,1 @@
+echo "source ~/.dotfiles/main" >> ~/.bashrc

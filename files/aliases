@@ -1,0 +1,6 @@
+alias g="git"
+alias s="git status "
+alias a="git add "
+alias c="git commit -m "
+alias b="git checkout "
+
