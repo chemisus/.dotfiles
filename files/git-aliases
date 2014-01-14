@@ -3,4 +3,7 @@ alias s="git status "
 alias a="git add "
 alias c="git commit -m "
 alias b="git checkout "
+alias push="git push "
+alias pull="git pull "
+alias f="git fetch "
 
