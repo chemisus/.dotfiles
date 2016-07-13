@@ -11,3 +11,7 @@ alias push="git push "
 alias pull="git pull "
 alias f="git fetch "
 
+function tag {
+    git tag -s $1 -m $1
+}
+
