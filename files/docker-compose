@@ -1,0 +1,5 @@
+alias dcom="docker-compose "
+
+function dssh {
+    docker-compose exec $1 '/bin/bash'
+}
