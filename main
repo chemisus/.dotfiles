@@ -1,5 +1,0 @@
-source ~/.dotfiles/files/bash_colors
-source ~/.dotfiles/files/git-aliases
-source ~/.dotfiles/files/linux
-source ~/.dotfiles/files/docker-compose
-
