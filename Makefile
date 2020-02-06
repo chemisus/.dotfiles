@@ -8,6 +8,10 @@ default: clean main install
 clean:
 	rm -f ./main
 
+bin:
+	mkdir -p ~/bin
+	cp bin/* -r ~/bin
+
 main:
 	echo "source $(CWD)/files/bash_colors" > main
 	echo "source $(CWD)/files/git-aliases" >> main

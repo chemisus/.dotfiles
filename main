@@ -1,0 +1,4 @@
+source /home/thoward/Projects/.dotfiles/files/bash_colors
+source /home/thoward/Projects/.dotfiles/files/git-aliases
+source /home/thoward/Projects/.dotfiles/files/linux
+source /home/thoward/Projects/.dotfiles/files/docker-compose

@@ -1,2 +1,10 @@
 alias mark="date +'%s.%N'"
 
+alias urldecode='python3 -c "import sys, urllib.parse as ul;print(ul.unquote_plus(sys.argv[1]))"'
+
+#alias solrdebug="echo $1 | base64 -d | gzip -d"
+
+function solrdebug {
+    echo $1 | base64 -d | gzip -d
+    echo ''
+}
