@@ -20,7 +20,7 @@ main:
 
 
 backup:
-	cp $(HOME1)/.ssh $(HOME1)/.gnupg $(HOME1)/.mozilla ~ -r
+	cp $(HOME1)/.gitconfig $(HOME1)/.ssh $(HOME1)/.gnupg $(HOME1)/.mozilla ~ -r
 
 
 install:
