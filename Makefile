@@ -19,6 +19,9 @@ main:
 	echo "source $(CWD)/files/docker-compose" >> main
 
 
+php:
+	sudo dnf install -y php-cli
+
 backup:
 	cp $(HOME1)/.gitconfig $(HOME1)/.ssh $(HOME1)/.gnupg $(HOME1)/.mozilla ~ -r
 
