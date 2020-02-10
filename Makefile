@@ -19,6 +19,10 @@ main:
 	echo "source $(CWD)/files/docker-compose" >> main
 
 
+backup:
+	cp $(HOME1)/.ssh $(HOME1)/.gnupg $(HOME1)/.mozilla ~ -r
+
+
 install:
 	echo "source $(MAIN)" >> $(PROFILE)
 #	echo "source ~/.dotfiles/main" >> ~/.bashrc
